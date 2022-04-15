@@ -1,0 +1,35 @@
+*{
+    padding: o;
+    margin:0;
+}
+
+.navegador{
+    background-color: palevioletred;
+    height: 40px;
+    width:100%;
+    display:flex;
+    justify-content:flex-start;
+    align-items: center;
+}
+
+.link{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    color:darkslategray;
+    text-decoration: none;
+    margin:10px;   
+}
+
+.nav .i{
+    align-self: flex-end;
+}
+
+@media screen and (max-width:350px){
+    .link{
+        display: none;
+        
+    }
+}
+
+    
+
